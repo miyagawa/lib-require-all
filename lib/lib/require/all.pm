@@ -41,8 +41,8 @@ lib::require::all - A tiny pragma to load all files from a lib directory
 =head1 DESCRIPTION
 
 lib::require::all is a pragma to load all C<*.pm> files in a given
-directory (C<lib> by default). The lib directory is automatically
-added to C<@INC> via L<lib> pragma automatically.
+directory (C<lib> by default). The lib directories specified is
+automatically added to C<@INC> via L<lib> pragma as well.
 
 Handy to preload all modules with tools like L<forkprove>.
 
